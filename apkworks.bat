@@ -8,7 +8,7 @@ ECHO 1. Decode APK
 ECHO 2. Build APK
 ECHO 3. Sign APK
 ECHO 4. Generate key
-ECHO 5. Exit
+ECHO 6. Exit
 ECHO:
 
 SET /P i1811=Enter the option: 
@@ -38,5 +38,8 @@ IF ERRORLEVEL 1 ECHO invalid_option & GOTO :DEF_CASE
   ECHO Done.
   GOTO :DEF_CASE
 :CASE5
+  CALL zipalign.bat "app.apk"
+  GOTO :DEF_CASE
+:CASE6
   ECHO Bye.
   EXIT /B

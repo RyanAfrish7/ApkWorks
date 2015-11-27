@@ -10,7 +10,12 @@ The apktool is available on the GitHub as an Open Source project at http://ibotp
    * Build
    * Sign
    * Generate key
+   * ZipAlign
 3. Signing and Key-generation requires *Java JDK*
 4. During the latter two modes, the tool will ask you for JDK path
 5. The rest is as easy as choosing an option
 6. The rebuild app is saved as app.apk
+
+## News
+### November 11, 2015
+* Zip Align added
