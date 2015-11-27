@@ -8,6 +8,7 @@ ECHO 1. Decode APK
 ECHO 2. Build APK
 ECHO 3. Sign APK
 ECHO 4. Generate key
+ECHO 5. ZigAlign
 ECHO 6. Exit
 ECHO:
 
