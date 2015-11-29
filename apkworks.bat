@@ -3,7 +3,7 @@ IF (%1)==(-c) (
   GOTO :CASE%2
 :CASEd
 :CASEdecode
-    CALL decode.bat %3
+    CALL decode.bat %3 %4 %5
     EXIT /B
 :CASEbuild
 :CASEb
